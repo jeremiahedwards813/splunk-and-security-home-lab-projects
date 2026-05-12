@@ -23,3 +23,23 @@ SIEM home lab using Splunk, Windows Server, Kali Linux, and Metasploitable.
 ## Data Flow
 
 Windows Server → Splunk (Ubuntu) → Search & Analysis Dashboard
+
+## Detection Use Case
+
+Detect Windows Security Event logs (WinEventLog:Security) ingested into Splunk and analyzed for authentication and system activity patterns.
+
+## Tools Used
+- Splunk Enterprise
+- Windows Server
+- Kali Linux
+- Metasploitable 2
+- VMware Fusion
+
+- ## Evidence
+- VMware topology screenshot
+- Splunk dashboard showing ingested logs
+
+- ## Next Steps
+- Build alert rules for brute force detection
+- Create dashboards for authentication monitoring
+- Expand logging sources (Sysmon, firewall logs)
