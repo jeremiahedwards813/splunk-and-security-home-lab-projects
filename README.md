@@ -9,6 +9,17 @@ A cybersecurity home lab built to simulate real-world SIEM monitoring using Splu
 - Network traffic visibility
 - Basic threat detection concepts
 
+- ## Lab Architecture
+
+- Kali Linux: attacker machine
+- Windows Server: log source (event logs)
+- Ubuntu Server: Splunk SIEM instance
+- Metasploitable 2: vulnerable target system
+
 # splunk-and-security-home-lab-projects
 SIEM home lab using Splunk, Windows Server, Kali Linux, and Metasploitable.
 ![Lab Topology](screenshots/lab-topology.png)
+
+## Data Flow
+
+Windows Server → Splunk (Ubuntu) → Search & Analysis Dashboard
