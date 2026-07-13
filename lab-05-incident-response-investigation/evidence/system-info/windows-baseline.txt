@@ -1,0 +1,27 @@
+Microsoft Windows [Version 10.0.20348.587]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Administrator>hostname
+WIN-420AJ62ALAJ
+
+C:\Users\Administrator>whoami
+win-420aj62alaj\administrator
+
+C:\Users\Administrator>piconfig
+'piconfig' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet0:
+
+   Connection-specific DNS Suffix  . : localdomain
+   Link-local IPv6 Address . . . . . : fe80::99d6:2312:a38a:b7d3%6
+   IPv4 Address. . . . . . . . . . . : 192.168.106.130
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+
+C:\Users\Administrator>
