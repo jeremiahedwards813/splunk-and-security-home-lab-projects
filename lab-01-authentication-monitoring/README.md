@@ -1,8 +1,3 @@
-## MITRE ATT&CK Mapping
-
-| Tactic | Technique | ID | Description |
-|---|---|---|---|
-| Example | Example Technique | T0000 | Explanation |# Lab 01: Authentication Monitoring
 
 ## Overview
 
